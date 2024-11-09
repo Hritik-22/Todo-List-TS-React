@@ -1,0 +1,94 @@
+.headding-section {
+  height: 80px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.headding-section h1 {
+  display: block;
+  text-align: center;
+}
+
+.add-task-section {
+  height: 100px;
+}
+
+#form {
+
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form input {
+  height: 30px;
+  width: 200px;
+  border: 2px solid lightgreen;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+#form button {
+
+  height: 30px;
+  width: 60px;
+  border: 2px solid lightgreen;
+  border-radius: 10px;
+  margin-left: 5px;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+
+ul {
+  width: 20%;
+  margin: auto;
+
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+li button {
+  margin: 10px;
+  padding: 5px;
+  background-color: red;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid white;
+}
+
+.nav ul {
+  width: 250px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: whitesmoke;
+
+
+}
+
+li .active-Link {
+  color: lightgreen !important;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
