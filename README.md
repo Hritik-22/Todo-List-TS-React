@@ -23,5 +23,5 @@ This is a simple yet functional To-Do application developed using **React** and 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/Hritik-22/Todo-List-TS-React.git
    cd yourproject
